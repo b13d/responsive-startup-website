@@ -191,6 +191,14 @@ section{
         justify-content: center;
     }
 
+    .our-services {
+        max-width: 1227px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 55px;
+    }
 }
 
 @media screen and (max-width: 900px) {
