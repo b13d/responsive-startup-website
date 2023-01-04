@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-a, h1, h2, h3, p {
+a, h1, h2, h3, p, label {
     font-family: 'Work Sans', sans-serif;
     color: white;
     margin-bottom: 15px;
@@ -137,8 +137,11 @@ footer{
 
 .footer-info{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-
+.footer-info p{
+    margin: 0;
+}
 

@@ -199,6 +199,12 @@ section{
         align-items: center;
         gap: 55px;
     }
+
+    .main-info-contact{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -270,6 +276,10 @@ section{
 
     .works {
         padding: 0px 20px 47px 20px!important;
+    }
+
+    .info-partners{
+        margin-top: 36px;
     }
 }
 
