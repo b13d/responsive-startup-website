@@ -11,5 +11,9 @@ Dekstop |  Mobile
 ![alt text](Images/page-1.png) |  ![alt text](Images/page-1.2.png)
 page-1 | page-1.2
 
+Dekstop |  Mobile
+:-------------------------:|:-------------------------:
+![alt text](Images/page-2.png) |  ![alt text](Images/page-2.2.png)
+page-2 | page-2.2
 
 
