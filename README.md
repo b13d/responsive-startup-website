@@ -16,4 +16,7 @@ Dekstop |  Mobile
 ![alt text](Images/page-2.png) |  ![alt text](Images/page-2.2.png)
 page-2 | page-2.2
 
-
+Dekstop |  Mobile
+:-------------------------:|:-------------------------:
+![alt text](Images/page-3.png) |  ![alt text](Images/page-3.2.png)
+page-3 | page-3.2
