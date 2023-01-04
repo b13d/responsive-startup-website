@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #74C69D;
+    padding: 35px 130px 83px 130px;
+}
+
+section{
+    padding: 35px 130px 73px 130px;
+}
+
+.header-links{
+    margin-bottom: 40px;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links > .links {
+    display: flex;
+}
+
+.links > li{
+    list-style-type: none;
+}
+
+.header-logo{
+    display: flex;
+}
+
+
+.image-header img{
+    width: 100%;
+}
+
+.image-header{
+    margin: auto;
+}
+
+.images-partners > ul > li > img{
+    width: 100%;
+}
+
+
+
+.info-partners > p,.info-partners > h1{
+    color: black!important;
+}
+
+.info-partners {
+    width: 411px;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.info-partners > p:first-of-type{
+    letter-spacing: 5px;
+    color: #74C69D!important;
+    font-weight: 700;
+}
+
+.info-partners > p:last-of-type{
+    font-size: 20px;
+}
+
+.info-partners > h1{
+    font-size: 40px;
+}
+
+.message-people, .logic-site{
+    display: flex;
+    justify-content: center;
+    padding: 0px 130px!important;
+    align-items: center;
+    margin-bottom: 78px;
+}
+
+.logic-site{
+    gap: 110px;
+    flex-direction: row-reverse;
+}
+
+.logic-site > .message-image{
+    margin: 0;
+}
+
+.message-image > img{
+    width: 100%;
+}
+
+.message-people > .welcome-header,
+.logic-site > .welcome-header
+{
+    width: 45% !important;
+}
+
+.message-image{
+    margin-right: 110px;
+}
+
+@media screen and (min-width: 1300px){
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+
+}
+
+@media screen and (min-width: 1100px) {
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    .welcome-header{
+        margin-right: 120px;
+    }
+
+    .avatar{
+        padding: 20px 15px;
+        text-align: center;
+        width: 224px;
+        height: 307px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .container{
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .main-info{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .btn{
+        margin: 20px 0;
+        width: 40%;
+    }
+
+
+    .images-partners ul{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .message-people, .logic-site{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px 30px!important;
+    }
+
+    .message-image > img{
+        width: 100%;
+    }
+
+    .message-people > .welcome-header,
+    .logic-site > .welcome-header
+    {
+        width: 100% !important;
+    }
+
+    .message-image{
+        margin-right:0;
+    }
+
+    .out-team{
+        gap: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .container{
+        margin: 0 auto;
+    }
+
+    .header-links .links{
+        display: none;
+    }
+
+    header{
+        padding: 20px;
+
+    }
+
+
+    .welcome-header h1{
+        font-size: 24px;
+    }
+
+    .btn{
+        margin: 20px 0;
+        width: 40%;
+    }
+
+    section{
+        padding: 35px 55px 83px 55px;
+    }
+
+    .info-partners > h1{
+        font-size: 24px;
+    }
+
+    .info-partners {
+        width: auto;
+        margin: 0 auto;
+        margin-bottom: 55px;
+    }
+
+    .header-logo h2{
+        font-size: 30px;
+        margin-left: 15px;
+    }
+
+    .header-logo img{
+        width: 30%;
+    }
+
+    .partners{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .footer-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    footer{
+        padding: 50px 20px;
+    }
+}
+

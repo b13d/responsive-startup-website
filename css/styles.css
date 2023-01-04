@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, h1, h2, h3, p {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-logo h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.links > li > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.welcome-header {
+    max-width: 416px;
+}
+
+.welcome-header h3 {
+    letter-spacing: 5px;
+    font-size: 16px;
+}
+
+.welcome-header p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.btn {
+    text-align: center;
+    width: 170px;
+    line-height: 45px;
+    height: 48px;
+    display: block;
+    background: white;
+    border-radius: 5px;
+
+    color: black;
+    text-decoration: none;
+}
+
+.main-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-partners ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.btn-learn {
+    background: #303030;
+    color: white;
+    margin: 65px auto !important;
+    width: 170px !important;
+}
+
+.message-people and .logic-site > .welcome-header > h1,
+.message-people and .logic-site > .welcome-header > p
+{
+    color: black;
+}
+
+
+
+
+.message-people > .welcome-header > a,
+.logic-site > .welcome-header > a
+{
+    background: #303030;
+    color: white;
+}
+
+.message-info{
+    max-width: 470px;
+    margin: 0!important;
+}
+
+.out-team{
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar{
+    padding: 20px 39px;
+    text-align: center;
+    width: 279px;
+    height: 300px;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.avatar > p{
+    text-align: start;
+    color: black;
+}
+
+.avatar > p:first-of-type{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.avatar > p:last-of-type{
+    font-size: 15px;
+    color: #21252975;
+}
+
+.avatar img{
+    margin-bottom: 19px;
+}
+
+footer{
+    background: #74C69D;
+    padding: 50px 130px;
+}
+
+.footer-images ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
