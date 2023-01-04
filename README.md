@@ -20,3 +20,8 @@ Dekstop |  Mobile
 :-------------------------:|:-------------------------:
 ![alt text](Images/page-3.png) |  ![alt text](Images/page-3.2.png)
 page-3 | page-3.2
+
+Dekstop |  Mobile
+:-------------------------:|:-------------------------:
+![alt text](Images/page-4.png) |  ![alt text](Images/page-4.2.png)
+page-4 | page-4.2
