@@ -15,6 +15,11 @@
         padding: 45px 20px 60px 20px;
     }
 
+    textarea {
+        resize: none;
+        padding: 60px 10px!important;
+    }
+
 
 }
 
@@ -31,16 +36,17 @@
     }
 
 
-
+    textarea {
+        resize: none;
+        padding: 30px 10px!important;
+    }
 }
 
 .contact-info {
     padding: 0 0 93px 0!important;
 }
 
-textarea {
-    resize: none;
-}
+
 
 .header-links{
     max-height: 50px;
