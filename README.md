@@ -6,6 +6,10 @@ Source: https://www.figma.com/community/file/1150370769219258177<br>
 
 This site was built using [GitHub Pages](https://b13d.github.io/responsive-startup-website/).
 
+Dekstop |  Mobile
+:-------------------------:|:-------------------------:
+![alt text](Images/page-1.png) |  ![alt text](Images/page-1.2.png)
+page-1 | page-1.2
 
-![alt text](https://github.com/b13d/responsive-startup-website/tree/main/Images/page-1.png)
-![alt text](https://github.com/b13d/responsive-startup-website/tree/main/Images/page-1.2.png)
+
+
